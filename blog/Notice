@@ -1,0 +1,8 @@
+미리 보기 npm start
+
+-------
+node-modules - 라이브러리 
+public - static 보관함 
+
+특이점 js 파일에 html 코드를 짜도 먹힌다
+------
