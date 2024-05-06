@@ -19,6 +19,7 @@ function App() {
     <button type="button" class="btn btn-outline-info">Info</button>
     <button type="button" class="btn btn-outline-light">Light</button>
     <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
 
     <div className = 'Ironside 'style={{color : 'red' }}>무릇 군자는 갈의를 입은 자와 차이가 있어야..</div>
 
