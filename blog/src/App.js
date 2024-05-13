@@ -1,10 +1,20 @@
 //import logo from './logo.svg';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import pokemonResponseJson from './pokemonResponseJson.json'
 import './App.css';
 
 function App() {
   var RedStyle =  "red"
   let [글제목, b] = useState('영혼과 소프트웨어와의 차이점');
+
+  useEffect(() => {
+    //console.log('test1328u39487948798')
+  //  fetch('http://localhost:8080/test') 
+  //  .then(res => console.log('fetched'))
+  //  .catch((err) => console.log('err'))
+  //  .finally(() => console.log('finally'))
+  console.log(pokemonResponseJson)
+  }, [])
 
   return (
     <div className="App">
